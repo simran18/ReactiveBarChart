@@ -98,7 +98,7 @@
   // and add tooltip functionality
   function plotData(map) {
     let color = d3.scaleOrdinal()
-      .range(["#a05d56", "#d0743c"])
+      .range(["#a05d56", "#4633FF"])
 
     // mapping functions
     let xMap = map.x;
