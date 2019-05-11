@@ -1,0 +1,46 @@
+body { font: 12px Arial;}
+
+div.toolTip {
+    position: absolute;
+    text-align: left;
+    width: 450px;
+    height: 200px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.tooltip-heading {
+    font: 18px sans-serif;
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 55%;
+}
+
+.label {
+    font: 10px sans-serif;
+    fill: white;
+    font-weight: 400;
+  text-anchor: middle;
+}
